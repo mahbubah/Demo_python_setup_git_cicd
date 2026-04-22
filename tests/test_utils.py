@@ -2,7 +2,7 @@ import sys
 import pathlib
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
-from src.utils import add, multiply # noqa: E402
+from src.utils import add, multiply  # noqa: E402
 
 
 def test_add_two_positive_numbers():
