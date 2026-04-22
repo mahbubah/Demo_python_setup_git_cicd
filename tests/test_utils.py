@@ -1,10 +1,10 @@
 import sys
 import pathlib
+import pandas as pd
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
-
-import pandas as pd
 from src.utils import replace_sentinel, celsius_to_fahrenheit
+
 
 
 def test_replace_sentinel_replaces_minus999():
