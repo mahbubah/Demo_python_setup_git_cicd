@@ -4,7 +4,6 @@ import pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent.parent))
 
 import pandas as pd
-import numpy as np
 from src.utils import replace_sentinel, celsius_to_fahrenheit
 
 
